@@ -1,0 +1,9 @@
+# vim: set ft=gitignore
+
+# vim ignore plugged directory
+.vim/plugged/
+.vim/plugged/**
+.vim/viminfo
+
+# zsh ignore
+.zsh/history
