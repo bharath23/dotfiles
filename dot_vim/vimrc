@@ -1,0 +1,15 @@
+call plug#begin()
+Plug 'fatih/vim-go'
+Plug 'morhetz/gruvbox'
+Plug 'tpope/vim-sensible'
+Plug 'powerman/vim-plugin-AnsiEsc'
+call plug#end()
+
+set background=dark
+set viminfo+=n~/.vim/viminfo
+colorscheme gruvbox
+
+if has('gui_running')
+	set guifont=Inconsolata-Regular:h16
+	set guioptions=aegm
+endif
