@@ -1,0 +1,1 @@
+[ -f $HOME/.zsh/rc.zsh ] && source $HOME/.zsh/rc.zsh
