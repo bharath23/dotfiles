@@ -1,3 +1,3 @@
-export HOMEBREW_PREFIX="/usr/local";
-export HOMEBREW_CELLAR="/usr/local/Cellar";
-export HOMEBREW_REPOSITORY="/usr/local/Homebrew";
+export HOMEBREW_PREFIX="/opt/homebrew";
+export HOMEBREW_CELLAR="/opt/homebrew/Cellar";
+export HOMEBREW_REPOSITORY="/opt/homebrew";
