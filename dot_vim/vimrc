@@ -1,13 +1,18 @@
 call plug#begin()
 Plug 'fatih/vim-go'
+Plug 'godlygeek/tabular'
 Plug 'morhetz/gruvbox'
-Plug 'tpope/vim-sensible'
 Plug 'powerman/vim-plugin-AnsiEsc'
+Plug 'preservim/vim-markdown'
+Plug 'tpope/vim-sensible'
 call plug#end()
 
 set background=dark
 set viminfo+=n~/.vim/viminfo
 colorscheme gruvbox
+
+" disable folding for markdown files
+let g:vim_markdown_folding_disabled = 1
 
 if has('gui_running')
 	set guifont=Inconsolata-Regular:h16
