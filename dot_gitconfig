@@ -1,3 +1,7 @@
 [user]
 	name = Bharath Ramesh
 	email = bramesh.dev@gmail.com
+[fetch]
+	prune = true
+[push]
+	default = simple
