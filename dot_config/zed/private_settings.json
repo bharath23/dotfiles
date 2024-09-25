@@ -11,8 +11,15 @@
   "autosave": "on",
   "buffer_font_family": "Inconsolata Regular",
   "buffer_font_size": 14,
-  "enable_language_server": true,
+  "confirm_quit": true,
+  "enable_language_server": false,
+  "format_on_save": true,
   "languages": {
+    "Go": {
+      "enable_language_server": true,
+      "format_on_save": true,
+      "hard_tabs": true
+    },
     "Markdown": {
       "format_on_save": "on",
       "preferred_line_length": 80,
