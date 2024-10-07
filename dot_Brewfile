@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 brew "chezmoi"
+brew "colordiff"
 brew "git"
 brew "go"
 brew "jq"
