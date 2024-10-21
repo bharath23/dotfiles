@@ -9,7 +9,7 @@
 {
   "auto_update": false,
   "autosave": "on_focus_change",
-  "buffer_font_family": "Inconsolata",
+  "buffer_font_family": "Inconsolata Regular",
   "buffer_font_size": 14,
   "confirm_quit": true,
   "enable_language_server": false,
@@ -17,14 +17,12 @@
   "languages": {
     "Go": {
       "enable_language_server": true,
-      "format_on_save": "on",
       "hard_tabs": true,
       "preferred_line_length": 80,
       "soft_wrap": "preferred_line_length"
     },
     "Markdown": {
       "enable_language_server": true,
-      "format_on_save": "on",
       "preferred_line_length": 80,
       "remove_trailing_whitespace_on_save": true,
       "soft_wrap": "preferred_line_length"
