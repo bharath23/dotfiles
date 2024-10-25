@@ -1,7 +1,7 @@
 # load auto completion for different commands
 # load zsh functions
 if command -v brew &> /dev/null; then
-	FPATH="$(brew --prefix)/share/site-functions:${FPATH}"
+	FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 fi
 
 autoload -Uz compinit && compinit
