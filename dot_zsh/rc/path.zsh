@@ -7,6 +7,8 @@ export PATH="/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/app
 # end
 export PATH="/Library/TeX/texbin${PATH+:$PATH}"
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin${PATH+:$PATH}";
+[[ -d ${HOME}/go/bin ]] && export PATH="${HOME}/go/bin${PATH+:$PATH}";
+[[ -d ${HOME}/bin ]] && export PATH="${HOME}/bin${PATH+:$PATH}";
 # start MANPATH added by running /usr/libexec/path_helper
 export MANPATH="/usr/share/man:/usr/local/share/man${MANPATH+:$MANPATH}";
 # end
