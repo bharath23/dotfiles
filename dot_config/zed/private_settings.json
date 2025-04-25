@@ -13,6 +13,9 @@
   "buffer_font_size": 14,
   "confirm_quit": true,
   "enable_language_server": false,
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
   "format_on_save": "on",
   "languages": {
     "Go": {
@@ -21,10 +24,16 @@
       "preferred_line_length": 80,
       "soft_wrap": "preferred_line_length"
     },
+    "LaTex": {
+      "enable_language_server": true,
+      "hard_tabs": true,
+      "preferred_line_length": 80,
+      "soft_wrap": "preferred_line_length",
+      "tab_size": 2
+    },
     "Markdown": {
       "enable_language_server": true,
       "preferred_line_length": 80,
-      "remove_trailing_whitespace_on_save": true,
       "soft_wrap": "preferred_line_length"
     }
   },
