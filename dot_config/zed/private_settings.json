@@ -12,10 +12,15 @@
   "buffer_font_family": "Inconsolata Regular",
   "buffer_font_size": 14,
   "confirm_quit": true,
-  "enable_language_server": false,
-  "features": {
-    "edit_prediction_provider": "zed"
+  "edit_predictions": {
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null
+    },
+    "enabled_in_assistant": false,
+    "mode": "subtle"
   },
+  "enable_language_server": false,
   "format_on_save": "on",
   "languages": {
     "Go": {
@@ -37,6 +42,7 @@
       "soft_wrap": "preferred_line_length"
     }
   },
+  "show_edit_predictions": false,
   "telemetry": {
     "diagnostics": false,
     "metrics": false
