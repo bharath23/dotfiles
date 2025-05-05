@@ -26,20 +26,17 @@
     "Go": {
       "enable_language_server": true,
       "hard_tabs": true,
-      "preferred_line_length": 80,
-      "soft_wrap": "preferred_line_length"
+      "preferred_line_length": 80
     },
     "LaTex": {
       "enable_language_server": true,
       "hard_tabs": true,
       "preferred_line_length": 80,
-      "soft_wrap": "preferred_line_length",
       "tab_size": 2
     },
     "Markdown": {
       "enable_language_server": true,
-      "preferred_line_length": 80,
-      "soft_wrap": "preferred_line_length"
+      "preferred_line_length": 80
     }
   },
   "show_edit_predictions": false,
